@@ -14,6 +14,7 @@
 		4FC02F842AD902AD005281F0 /* Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F832AD902AD005281F0 /* Apple_FrameworksTests.swift */; };
 		4FC02F8E2AD902AD005281F0 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F8D2AD902AD005281F0 /* Apple_FrameworksUITests.swift */; };
 		4FC02F902AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F8F2AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift */; };
+		4FC02F9F2AD9061B005281F0 /* Frameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F9E2AD9061B005281F0 /* Frameworks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4FC02F892AD902AD005281F0 /* Apple-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC02F8D2AD902AD005281F0 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		4FC02F8F2AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FC02F9E2AD9061B005281F0 /* Frameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frameworks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4FC02F722AD902AC005281F0 /* Apple_FrameworksApp.swift */,
 				4FC02F742AD902AC005281F0 /* ContentView.swift */,
+				4FC02F9E2AD9061B005281F0 /* Frameworks.swift */,
 				4FC02F762AD902AD005281F0 /* Assets.xcassets */,
 				4FC02F782AD902AD005281F0 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				4FC02F752AD902AC005281F0 /* ContentView.swift in Sources */,
 				4FC02F732AD902AC005281F0 /* Apple_FrameworksApp.swift in Sources */,
+				4FC02F9F2AD9061B005281F0 /* Frameworks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
