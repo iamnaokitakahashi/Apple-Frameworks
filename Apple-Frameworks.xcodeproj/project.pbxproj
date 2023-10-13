@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4FC02F732AD902AC005281F0 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F722AD902AC005281F0 /* Apple_FrameworksApp.swift */; };
-		4FC02F752AD902AC005281F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F742AD902AC005281F0 /* ContentView.swift */; };
 		4FC02F772AD902AD005281F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC02F762AD902AD005281F0 /* Assets.xcassets */; };
 		4FC02F7A2AD902AD005281F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC02F792AD902AD005281F0 /* Preview Assets.xcassets */; };
 		4FC02F842AD902AD005281F0 /* Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F832AD902AD005281F0 /* Apple_FrameworksTests.swift */; };
 		4FC02F8E2AD902AD005281F0 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F8D2AD902AD005281F0 /* Apple_FrameworksUITests.swift */; };
 		4FC02F902AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F8F2AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		4FC02F9F2AD9061B005281F0 /* Frameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F9E2AD9061B005281F0 /* Frameworks.swift */; };
+		4FC02FA12AD90919005281F0 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02FA02AD90919005281F0 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4FC02F6F2AD902AC005281F0 /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC02F722AD902AC005281F0 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		4FC02F742AD902AC005281F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FC02F762AD902AD005281F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC02F792AD902AD005281F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FC02F7F2AD902AD005281F0 /* Apple-FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		4FC02F8D2AD902AD005281F0 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		4FC02F8F2AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4FC02F9E2AD9061B005281F0 /* Frameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frameworks.swift; sourceTree = "<group>"; };
+		4FC02FA02AD90919005281F0 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4FC02F722AD902AC005281F0 /* Apple_FrameworksApp.swift */,
-				4FC02F742AD902AC005281F0 /* ContentView.swift */,
+				4FC02FA02AD90919005281F0 /* FrameworkGridView.swift */,
 				4FC02F9E2AD9061B005281F0 /* Frameworks.swift */,
 				4FC02F762AD902AD005281F0 /* Assets.xcassets */,
 				4FC02F782AD902AD005281F0 /* Preview Content */,
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC02F752AD902AC005281F0 /* ContentView.swift in Sources */,
+				4FC02FA12AD90919005281F0 /* FrameworkGridView.swift in Sources */,
 				4FC02F732AD902AC005281F0 /* Apple_FrameworksApp.swift in Sources */,
 				4FC02F9F2AD9061B005281F0 /* Frameworks.swift in Sources */,
 			);
