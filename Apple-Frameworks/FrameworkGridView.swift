@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct FrameworkGridView: View {
+    
+    let columns: [GridItem] = [GridItem(.flexible()),
+                               GridItem(.flexible()),
+                               GridItem(.flexible())] // .fleixble - based on how many columns you have, itll fill the screen
+    
     var body: some View {
-        FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+        LazyVGrid(columns: columns) {
+            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+        }
     }
 }
 
