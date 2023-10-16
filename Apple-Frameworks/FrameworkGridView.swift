@@ -50,5 +50,6 @@ struct FrameworkTitleView: View {
                 .scaledToFit() // ability to shrink
                 .minimumScaleFactor(0.6) // shrink to minium
         }
+        .padding()
     }
 }

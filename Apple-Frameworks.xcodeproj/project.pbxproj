@@ -15,6 +15,7 @@
 		4FC02F902AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F8F2AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		4FC02F9F2AD9061B005281F0 /* Frameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02F9E2AD9061B005281F0 /* Frameworks.swift */; };
 		4FC02FA12AD90919005281F0 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02FA02AD90919005281F0 /* FrameworkGridView.swift */; };
+		4FC02FA52ADCE8C1005281F0 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC02FA42ADCE8C1005281F0 /* FrameworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4FC02F8F2AD902AD005281F0 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4FC02F9E2AD9061B005281F0 /* Frameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frameworks.swift; sourceTree = "<group>"; };
 		4FC02FA02AD90919005281F0 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		4FC02FA42ADCE8C1005281F0 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				4FC02F9E2AD9061B005281F0 /* Frameworks.swift */,
 				4FC02F762AD902AD005281F0 /* Assets.xcassets */,
 				4FC02F782AD902AD005281F0 /* Preview Content */,
+				4FC02FA42ADCE8C1005281F0 /* FrameworkDetailView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC02FA52ADCE8C1005281F0 /* FrameworkDetailView.swift in Sources */,
 				4FC02FA12AD90919005281F0 /* FrameworkGridView.swift in Sources */,
 				4FC02F732AD902AC005281F0 /* Apple_FrameworksApp.swift in Sources */,
 				4FC02F9F2AD9061B005281F0 /* Frameworks.swift in Sources */,
