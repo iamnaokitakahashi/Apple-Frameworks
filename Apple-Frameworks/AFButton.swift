@@ -9,9 +9,9 @@ import SwiftUI
 
 struct AFButton: View {
     
-    var title: String
+    var title: String // to pass so it can say whatever we want
     var body: some View {
-        Text("title")
+        Text(title)
             .font(.title2)
             .fontWeight(.semibold)
             .frame(width: 200, height: 50)
