@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Framework {
+struct Framework: Hashable, Identifiable { // identifiable is conformed 
+    let id = UUID() // unique identifier
     let name: String
     let imageName: String
     let urlString: String

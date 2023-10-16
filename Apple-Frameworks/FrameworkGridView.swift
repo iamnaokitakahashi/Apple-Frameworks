@@ -15,12 +15,9 @@ struct FrameworkGridView: View {
     
     var body: some View {
         LazyVGrid(columns: columns) {
-            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
-            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
-            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
-            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
-            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
-            FrameworkTitleview(name: "App Clips", imageName: "app-clip")
+            ForEach(MockData.frameworks) { framework in
+                FrameworkTitleView(name: framework.name, imageName: framework.imageName)
+            }
         }
     }
 }
@@ -31,7 +28,7 @@ struct FrameworkGridView_Previews: PreviewProvider {
     }
 }
 
-struct FrameworkTitleview: View {
+struct FrameworkTitleView: View {
     
     let name: String
     let imageName: String
