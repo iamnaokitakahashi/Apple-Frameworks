@@ -11,7 +11,7 @@ struct FrameworkGridView: View {
     
     let columns: [GridItem] = [GridItem(.flexible()),
                                GridItem(.flexible()),
-                               GridItem(.flexible())] // .fleixble - based on how many columns you have, itll fill the screen
+                               GridItem(.flexible())] // .fleixble - based on how many columns I have, itll fill the screen
     
     var body: some View {
         NavigationView {
