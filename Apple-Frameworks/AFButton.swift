@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AFButton: View {
     
-    var title: String // to pass so it can say whatever I want
+    var title: String // to pass so it can say whatever
     var body: some View {
         Text(title)
             .font(.title2)
