@@ -103,13 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				4FC02F722AD902AC005281F0 /* Apple_FrameworksApp.swift */,
+				4FC02FA82AE0E873005281F0 /* FrameworkGridViewModel.swift */,
 				4FC02FA02AD90919005281F0 /* FrameworkGridView.swift */,
+				4FC02FA42ADCE8C1005281F0 /* FrameworkDetailView.swift */,
 				4FC02F9E2AD9061B005281F0 /* Frameworks.swift */,
 				4FC02F762AD902AD005281F0 /* Assets.xcassets */,
 				4FC02F782AD902AD005281F0 /* Preview Content */,
-				4FC02FA42ADCE8C1005281F0 /* FrameworkDetailView.swift */,
 				4FC02FA62ADCEBA2005281F0 /* AFButton.swift */,
-				4FC02FA82AE0E873005281F0 /* FrameworkGridViewModel.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";

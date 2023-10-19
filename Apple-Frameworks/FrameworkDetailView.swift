@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct FrameworkDetailView: View {
+    
     var framework: Framework
+    
     var body: some View {
         VStack {
             HStack {
@@ -21,7 +23,6 @@ struct FrameworkDetailView: View {
                         .foregroundColor(Color(.label))
                         .imageScale(.large)
                         .frame(width: 44, height: 44)
-                    
                 }
             }
             .padding()
@@ -29,7 +30,6 @@ struct FrameworkDetailView: View {
             Spacer()
             
             FrameworkTitleView(framework: framework)
-            
             Text(framework.description)
                 .font(.body)
                 .padding()

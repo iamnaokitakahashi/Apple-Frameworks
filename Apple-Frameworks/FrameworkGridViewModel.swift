@@ -7,7 +7,13 @@
 
 import SwiftUI
 
-class FrameworkGridViewModel: ObservableObject { // Objects allows publish info
+final class FrameworkGridViewModel: ObservableObject {
     
-    var selecetedFramework: Framework?
+    var selectedFramework: Framework? {
+        didSet {
+            isShowingDetailView = true
+        }
+    }
+    
+    @Published var isShowingDetailView: Bool = false
 }
