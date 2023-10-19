@@ -19,10 +19,13 @@ struct FrameworkGridView: View {
                 LazyVGrid(columns: columns) {
                     ForEach(MockData.frameworks) { framework in
                         FrameworkTitleView(framework: framework)
+                            .onTapGesture {
+                                print("")
+                            }
                     }
                 }
             }
-        .navigationTitle("🍎 Frameworks")
+        .navigationTitle("Apple Frameworks")
         }
     }
 }
@@ -53,3 +56,17 @@ struct FrameworkTitleView: View {
         .padding()
     }
 }
+
+
+// MVVM - note to me
+
+// **Model** - solves the data
+// ex: struct Framework {
+    //  let name: String
+    //  let imageName: String
+    //  let urlString: String
+    //  let description: String
+
+// **View** - Displays everything
+// **ViewModel** - layer in between that handles display logic
+// var selectedFramework: Framework
