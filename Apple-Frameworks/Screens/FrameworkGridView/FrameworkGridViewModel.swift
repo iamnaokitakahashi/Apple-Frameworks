@@ -17,5 +17,5 @@ final class FrameworkGridViewModel: ObservableObject {
     
     let columns: [GridItem] = [GridItem(.flexible()),
                                GridItem(.flexible()),
-                               GridItem(.flexible())] // .fleixble - based on how many columns I have, itll fill the screen
+                               GridItem(.flexible())] // extra columns 
 }
